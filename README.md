@@ -1,8 +1,11 @@
-		Analiza opłat pasażerów Titanica
+					Analiza opłat pasażerów Titanica
 
 Opis projektu:
 
-	Projekt dotyczy analizy opłat (Fare) zapłaconych przez pasażerów na statku Titanic, z wykorzystaniem różnych technik statystycznych. Analiza obejmuje m.in. rozkład 		opłat, ich zależność od liczby towarzyszy podróży (SibSp),a także badanie symetrii rozkładu oraz korelacji między zmiennymi. Celem jest lepsze zrozumienie danych i zależności 	między opłatami a innymi zmiennymi.
+	Projekt dotyczy analizy opłat (Fare) zapłaconych przez pasażerów na statku Titanic,
+	z wykorzystaniem różnych technik statystycznych. Analiza obejmuje m.in. rozkład 		
+	opłat, ich zależność od liczby towarzyszy podróży (SibSp),a także badanie symetrii rozkładu
+	oraz korelacji między zmiennymi. Celem jest lepsze zrozumienie danych i zależności między opłatami a innymi zmiennymi.
 
 Kroki analizy:
 
@@ -38,10 +41,13 @@ Wymagania:
 Wnioski:
 
     	>Zmienna Fare jest asymetryczna z dużą liczbą niskich opłat i kilkoma wysokimi wartościami odstającymi.
-    	>Standaryzacja zmniejszyła skalę, ale nie zmieniła rozkładu- opłaty pozostały asymetryczne z dużą liczbą wartości blisko 0 po standaryzacji oraz nielicznymi wartościami 	odstającymi.
+    	>Standaryzacja zmniejszyła skalę, ale nie zmieniła rozkładu- opłaty pozostały asymetryczne z dużą liczbą wartości
+		 blisko 0 po standaryzacji oraz nielicznymi wartościami odstającymi.
     	>Nie wykazano istotnej korelacji między opłatami a liczbą towarzyszy na pokładzie.
-	>Bardzo słaba dodatnia korelacja (współczynnik 0,16) może wskazywać, że pasażerowie podróżujący samotnie lub z jednym towarzyszem płacili nieco wyższe opłaty (możliwe, że częściej 	podróżowali w wyższych klasach), ale wpływ ten jest minimalny.
-	>Wykres punktowy pokazuje, że pasażerowie podróżujący w większych grupach (wysokie wartości SibSp) zazwyczaj płacili niższe ceny, co może wynikać z preferencji dla biletów 				grupowych lub wyboru tańszych klas przez duże rodziny
+		>Bardzo słaba dodatnia korelacja (współczynnik 0,16) może wskazywać, że pasażerowie podróżujący samotnie lub 
+		z jednym towarzyszem płacili nieco wyższe opłaty (możliwe, że częściej 	podróżowali w wyższych klasach), ale wpływ ten jest minimalny.
+		>Wykres punktowy pokazuje, że pasażerowie podróżujący w większych grupach (wysokie wartości SibSp) zazwyczaj płacili niższe ceny,
+		co może wynikać z preferencji dla biletów grupowych lub wyboru tańszych klas przez duże rodziny
 Autor:
 
 Projekt wykonany w ramach zadania analizy statystycznej danych z Titanica.
